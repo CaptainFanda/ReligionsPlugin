@@ -1,0 +1,11 @@
+name: ReligionPlugin
+version: '1.0'
+main: politgame.Niky.ReligionPlugin
+api-version: '1.21'
+depend:
+  - PlaceholderAPI
+
+commands:
+  religion:
+    aliases: [rel, relig, religions, rl, rp, religionplugin]
+

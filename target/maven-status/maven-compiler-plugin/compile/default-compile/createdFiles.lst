@@ -1,0 +1,8 @@
+politgame\Niky\Service\ReligionService.class
+politgame\Niky\ReligionPlugin.class
+politgame\Niky\Expansion.class
+politgame\Niky\Listener\PlayerListener.class
+politgame\Niky\Commands\ReligionTabCompleter.class
+politgame\Niky\Database.class
+politgame\Niky\Commands\ReligionExecutor.class
+politgame\Niky\Data\FileData.class
