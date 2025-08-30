@@ -64,7 +64,9 @@ public class ReligionService {
             player.removePotionEffect(pe.getType());
         }
         Bukkit.getScheduler().cancelTasks(ReligionPlugin.getInstance());
-        addEffects(player);
+        for(Player p : Bukkit.getOnlinePlayers()) {
+            addEffects(p);
+        }
     }
     public static String getReligion(Player player) throws SQLException {
         Connection conn = ReligionPlugin.getConn();
@@ -109,3 +111,4 @@ public class ReligionService {
     }
 
 }
+
